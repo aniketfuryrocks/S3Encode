@@ -1,6 +1,4 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-var encodings = {
+const encodings = {
     '\+': "%2B",
     '\!': "%21",
     '\"': "%22",
@@ -18,6 +16,6 @@ var encodings = {
     '\?': "%3F",
     '\@': "%40",
 };
-exports.default = (function (filename) {
-    return filename.replace(/([+!"#$&'()*+,:;=?@])/img, function (match) { return encodings[match]; });
-});
+
+export default (filename: string): string =>
+    filename.replace(/([+!"#$&'()*+,:;=?@])/img, match => encodings[match])

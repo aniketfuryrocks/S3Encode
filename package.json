@@ -2,7 +2,7 @@
   "name": "s3encode",
   "description": "Encode url symbols to be s3 compatible",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "index.ts",
   "license": "MIT",
   "repository": {
     "url": "https://github.com/aniketfuryrocks/S3Encode.git"
@@ -13,5 +13,9 @@
     "backend",
     "frontend",
     "firejsx"
+  ],
+  "files": [
+    "index.js",
+    "index.d.ts"
   ]
 }
