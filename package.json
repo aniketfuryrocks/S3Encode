@@ -1,8 +1,8 @@
 {
   "name": "s3encode",
   "description": "Encode url symbols to be s3 compatible",
-  "version": "1.0.0",
-  "main": "index.ts",
+  "version": "1.2.0",
+  "main": "index.js",
   "license": "MIT",
   "repository": {
     "url": "https://github.com/aniketfuryrocks/S3Encode.git"
