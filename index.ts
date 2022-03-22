@@ -17,5 +17,8 @@ const encodings = {
     '\@': "%40",
 };
 
-export default (filename: string): string =>
-    filename.replace(/([+!"#$&'()*+,:;=?@])/img, match => encodings[match])
+export const s3Encode = (filename: string): string => {
+ return filename.replace(/([+!"#$&'()*+,:;=?@])/img, match => encodings[match])
+}
+
+export default s3Encode;
